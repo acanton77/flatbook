@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900,300italic,400italic,900italic|Henny+Penny);
+/* link color is yellow */
+
+i,
+a {
+    color: #FFF200;
+}
+
+
+/* hover is blue */
+i:hover,
+a:hover {
+    color: #00FDFD;
+}
+
+
+/* nav bar focus */
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+
+/* nav bar hover is yellow */
+.navbar-default .navbar-nav > li > a:hover {
+    color: #F9FF00;
+}
+
+
+/* white for contact phone icon */
+i.fa.fa-phone {
+    color: #FFF;
+}
+
+
+/* nav bar on right is bold */
+.navbar-nav > li > a {
+    font-weight: bold;
+}
+
+
+/* background color on nav */
+.navbar-default {
+    /* 
+  background-color: #3498DB;
+ */
+    
+    background-color: #86B253;
+    /*   #86B253 */
+}
+
+
+/* header area  */
+#headerwrap {
+    background-color: #5D9767;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+/* title text is a color */
+#headerwrap h1 {
+    margin-top: 20px;
+    font-size: 70px;
+    font-family: "Henny Penny";
+    /*   color: #0FF; */
+    
+    color: #F9FF00;
+}
+
+
+/* text in header area */
+.cover-title h2 {
+    color: white;
+}
+.cover-title p {
+    color: white;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+
+/* review area font size */
+div#review-area p {
+    font-size: 20px;
+}
+
+
+/* about book area image padding */
+.about-book-area img {
+    padding-right: 10px;
+    float: left;
+}
+
+
+/* contact area colors and font */
+#contact-area,
+#contact-area h1,
+#contact-area h2,
+#contact-area p,
+div#review-area {
+    background-color: #5D9767;
+    color: white;
+    font-size: 20px;
+}
